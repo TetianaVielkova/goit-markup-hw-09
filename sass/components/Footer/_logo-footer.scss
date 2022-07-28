@@ -1,0 +1,14 @@
+.footer-logo__link {
+    padding: 0;
+    margin-right: 0;
+}
+
+.logo__light-color {
+    color: $color-light-title;
+}
+
+@media screen and (min-width: 768px) {
+    .logo--notpadding{
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,18 @@
+.modal__button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: $light-background;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    fill: $color-logo-dark;
+    cursor: pointer;
+    padding: 5px;
+
+    &:hover,
+    &:focus {
+        fill: $accent-color;
+    }
+}
