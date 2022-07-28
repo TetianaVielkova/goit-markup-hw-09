@@ -320,6 +320,7 @@ b {
 
 @media screen and (max-width: 767px) {
   .navigation__link {
+    display: block;
     margin-bottom: 32px;
   }
 }
