@@ -40,14 +40,14 @@
         color: $accent-color;
     }
         &:not(:last-child) {
-            padding-bottom: 32px;
+            margin-bottom: 32px;
         }
     
 }
 
 @media screen and (max-width: 767px) {
     .navigation__link {
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
 }
 
